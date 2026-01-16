@@ -1,11 +1,65 @@
-Personal Portfolio Website – Rinesa Krasniqi
+Personal Portfolio Website
 
-A modern, responsive personal portfolio website showcasing my profile, skills, services, and projects as a Full Stack Developer.
-Built with clean HTML, CSS, and Vanilla JavaScript, focusing on performance, animations, and user experience.
+This project is a modern and responsive personal portfolio website designed to showcase my professional profile, technical skills, services, and projects as a Full Stack Developer.
 
-🚀 Live Preview
+The website is built using core web technologies, with a strong focus on clean design, smooth animations, and an intuitive user experience.
 
-You can deploy this project easily using platforms like:
+✨ Key Features
+
+Modern and professional UI design
+
+Fully responsive (desktop and mobile)
+
+Mobile navigation menu with toggle
+
+Scroll-based fade-in animations
+
+Animated floating background icons
+
+Projects section with direct GitHub links
+
+Downloadable CV button
+
+Clean and well-structured code
+
+🛠️ Technologies Used
+
+HTML5 – Semantic and accessible structure
+
+CSS3 – Modern layouts, animations, and responsive design
+
+JavaScript (Vanilla) – Interactivity and dynamic effects
+
+Font Awesome – Icons
+
+Google Fonts (Poppins) – Typography
+
+📁 Project Structure
+portfolio-i-rineses-
+│
+├── index.html        # Main page
+├── style.css         # Styling and animations
+├── script.js         # JavaScript logic
+├── rinesaa.jpg       # Profile image
+├── cvrinesa.pdf      # Downloadable CV
+└── README.md
+
+▶️ How to Run Locally
+
+Clone the repository:
+
+git clone https://github.com/rineseee/portfolio-i-rineses-.git
+
+
+Open the project folder
+
+Open index.html in your browser
+
+No backend or server setup is required.
+
+🌐 Deployment
+
+This project can be easily deployed using:
 
 GitHub Pages
 
@@ -13,79 +67,17 @@ Netlify
 
 Vercel
 
-📌 Features
+🚀 Future Improvements
 
-Fully responsive design (desktop & mobile)
+Contact form with backend integration (Laravel / EmailJS)
 
-Modern UI with gradient styling
+Dark / Light mode toggle
 
-Animated sections using Intersection Observer
-
-Floating background code icons for visual depth
-
-Mobile-friendly navigation menu
-
-Projects section with external GitHub links
-
-Downloadable CV button
-
-Smooth scrolling and transitions
-
-🛠️ Technologies Used
-
-HTML5 – Semantic structure
-
-CSS3 – Modern layouts, gradients, animations
-
-JavaScript (Vanilla) – Interactivity & animations
-
-Font Awesome – Icons
-
-Google Fonts (Poppins) – Typography
-
-📂 Project Structure
-.
-├── index.html      # Main HTML file
-├── style.css       # Styles and animations
-├── script.js       # JavaScript logic & effects
-├── rinesaa.jpg     # Profile image
-├── cvrinesa.pdf    # Downloadable CV
-└── README.md
-
-⚙️ How to Run Locally
-
-Clone the repository:
-
-git clone https://github.com/your-username/your-repo-name.git
-
-
-Open the project folder:
-
-cd your-repo-name
-
-
-Open index.html in your browser
-(no backend or server required)
-
-📱 Responsive Design
-
-Desktop: Full navigation bar
-
-Mobile: Toggle menu with smooth animation
-
-Optimized layouts for all screen sizes
-
-📈 Future Improvements
-
-Dark/Light mode toggle
-
-Contact form with backend (Laravel / EmailJS)
-
-Project filtering
+SEO optimization
 
 Multilingual support
 
-SEO optimization
+Additional project sections
 
 👩‍💻 Author
 
@@ -101,3 +93,11 @@ Email: rineskraasniqi@gmail.com
 📄 License
 
 This project is open-source and available for personal and educational use.
+
+If you want:
+
+a shorter recruiter-focused README
+
+a more technical version
+
+or help setting up GitHub Pages
