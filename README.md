@@ -94,10 +94,3 @@ Email: rineskraasniqi@gmail.com
 
 This project is open-source and available for personal and educational use.
 
-If you want:
-
-a shorter recruiter-focused README
-
-a more technical version
-
-or help setting up GitHub Pages
