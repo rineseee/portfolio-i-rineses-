@@ -717,6 +717,7 @@
   .about-section {
     grid-template-columns: 1fr;
     text-align: center;
+    justify-items: center;
     gap: var(--spacing-10);
     padding: var(--spacing-12) var(--section-padding-x);
   }
@@ -725,6 +726,7 @@
     order: -1;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: fit-content;
     margin: 0 auto;
   }
@@ -1628,11 +1630,13 @@
   .about-section {
     grid-template-columns: 1fr;
     text-align: center;
+    justify-items: center;
   }
 
   .about-image {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: fit-content;
     margin: 0 auto;
   }
