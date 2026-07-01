@@ -1,103 +1,58 @@
-Personal Portfolio Website
+# Rinesa Krasniqi — Portfolio
 
-This project is a modern and responsive personal portfolio website designed to showcase my professional profile, technical skills, services, and projects as a Full Stack Developer.
+Personal portfolio website for Rinesa Krasniqi, Full Stack Developer from Prizren, Kosovo.
 
-The website is built using core web technologies, with a strong focus on clean design, smooth animations, and an intuitive user experience.
+**Live at:** `index.html` (open locally or deploy to any static host)
 
-✨ Key Features
+---
 
-Modern and professional UI design
+## Tech Stack
 
-Fully responsive (desktop and mobile)
+- **HTML5** — semantic, accessible markup
+- **CSS** — custom design system (design-tokens, components, animations)
+- **Vanilla JavaScript** — no frameworks, no dependencies
 
-Mobile navigation menu with toggle
+---
 
-Scroll-based fade-in animations
+## Features
 
-Animated floating background icons
+- Dark / Light mode toggle with smooth transition
+- Fully responsive (mobile, tablet, desktop)
+- Floating code character background animations
+- Smooth scroll & active nav link detection
+- Contact form via `mailto:` (opens default email client)
+- Section reveal animations on scroll
+- 3D card tilt effect on hover
 
-Projects section with direct GitHub links
+---
 
-Downloadable CV button
+## Projects
 
-Clean and well-structured code
+| Project | Stack |
+|---|---|
+| Kosovo Traffic Management | Laravel • Blade • MySQL |
+| ReadReturn | Laravel • PHP • MySQL |
+| CityCitizen Management | Laravel • Vue.js • MySQL |
+| BimaAi | Laravel • Blade • Tailwind • Herd |
+| TrackIt | Laravel • Tailwind • SQLite |
+| Contract Management | HTML • CSS • JavaScript |
 
-🛠️ Technologies Used
+---
 
-HTML5 – Semantic and accessible structure
+## Skills
 
-CSS3 – Modern layouts, animations, and responsive design
+**Frontend** — Vue.js, React, JavaScript, HTML & CSS, Responsive Design  
+**Backend** — Laravel, PHP, MySQL, SQLite, RESTful APIs  
+**Tools** — Git & GitHub, Git Bash, Herd, Claude AI, Java, Data Privacy
 
-JavaScript (Vanilla) – Interactivity and dynamic effects
+---
 
-Font Awesome – Icons
+## Contact
 
-Google Fonts (Poppins) – Typography
+- **Email:** rineskraasniqi@gmail.com
+- **LinkedIn:** [rinesa-krasniqi-076581347](https://www.linkedin.com/in/rinesa-krasniqi-076581347/)
+- **GitHub:** [rineseee](https://github.com/rineseee)
 
-📁 Project Structure
-portfolio-i-rineses-
-│
-├── index.html        # Main page
-├── style.css         # Styling and animations
-├── script.js         # JavaScript logic
-├── rinesaa.jpg       # Profile image
-├── cvrinesa.pdf      # Downloadable CV
-└── README.md
+---
 
-▶️ How to Run Locally
-
-Clone the repository:
-
-git clone https://github.com/rineseee/portfolio-i-rineses-.git
-
-
-Open the project folder
-
-Open index.html in your browser
-
-No backend or server setup is required.
-
-🌐 Deployment
-
-This project can be easily deployed using:
-
-GitHub Pages
-
-Netlify
-
-Vercel
-
-🚀 Future Improvements
-
-Contact form with backend integration (Laravel / EmailJS)
-
-Dark / Light mode toggle
-
-SEO optimization
-
-Multilingual support
-
-Additional project sections
-
-👩‍💻 Author
-
-Rinesa Krasniqi
-Full Stack Developer
-
-GitHub: https://github.com/rineseee
-
-LinkedIn: https://www.linkedin.com/in/rinesa-krasniqi-076581347/
-
-Email: rineskraasniqi@gmail.com
-
-📄 License
-
-This project is open-source and available for personal and educational use.
-
-If you want:
-
-a shorter recruiter-focused README
-
-a more technical version
-
-or help setting up GitHub Pages
+© 2026 Rinesa Krasniqi. All rights reserved.

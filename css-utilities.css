@@ -1,0 +1,278 @@
+/* ========================================
+   REUSABLE CSS UTILITIES
+   Common patterns extracted from duplicated code
+   ======================================== */
+
+/* ===== HOVER ELEVATION UTILITIES ===== */
+.hover-lift-xs {
+  transition: transform var(--transition-base);
+}
+.hover-lift-xs:hover {
+  transform: translateY(-2px);
+}
+
+.hover-lift-sm {
+  transition: transform var(--transition-base);
+}
+.hover-lift-sm:hover {
+  transform: translateY(-4px);
+}
+
+.hover-lift-md {
+  transition: transform var(--transition-base);
+}
+.hover-lift-md:hover {
+  transform: translateY(-6px);
+}
+
+.hover-lift-lg {
+  transition: transform var(--transition-base);
+}
+.hover-lift-lg:hover {
+  transform: translateY(-8px);
+}
+
+.hover-lift-xl {
+  transition: transform var(--transition-base);
+}
+.hover-lift-xl:hover {
+  transform: translateY(-12px);
+}
+
+/* ===== GLOW SHADOW UTILITIES ===== */
+.glow-sm {
+  box-shadow: var(--shadow-glow-sm);
+}
+
+.glow-md {
+  box-shadow: var(--shadow-glow-md);
+}
+
+.glow-lg {
+  box-shadow: var(--shadow-glow-lg);
+}
+
+/* ===== SMOOTH TRANSITIONS ===== */
+.transition-smooth {
+  transition: all var(--transition-base);
+}
+
+.transition-fast {
+  transition: all var(--transition-fast);
+}
+
+.transition-slow {
+  transition: all var(--transition-slow);
+}
+
+/* ===== BORDER GLOW UTILITIES ===== */
+.border-top-glow {
+  position: relative;
+}
+
+.border-top-glow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-brand);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.border-top-glow:hover::before {
+  opacity: 1;
+}
+
+/* ===== SHIMMER ANIMATION UTILITIES ===== */
+.shimmer-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.shimmer-effect:hover::before {
+  left: 100%;
+}
+
+/* ===== GRADIENT TEXT UTILITIES ===== */
+.gradient-text {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===== FOCUS STATE UTILITIES ===== */
+.focus-ring {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-base);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 2px;
+}
+
+/* ===== VISIBILITY UTILITIES ===== */
+.visible-on-hover {
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+:hover > .visible-on-hover,
+.visible-on-hover:hover {
+  opacity: 1;
+}
+
+/* ===== INTERACTIVE STATE UTILITIES ===== */
+.interactive {
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.interactive:active {
+  transform: scale(0.95);
+}
+
+/* ===== FLEX CENTER UTILITIES ===== */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-gap {
+  gap: var(--spacing-4);
+}
+
+.flex-gap-sm {
+  gap: var(--spacing-2);
+}
+
+.flex-gap-lg {
+  gap: var(--spacing-6);
+}
+
+/* ===== STAGGER ANIMATION UTILITIES ===== */
+[data-stagger] {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+[data-stagger="1"] { animation-delay: 0.1s; }
+[data-stagger="2"] { animation-delay: 0.2s; }
+[data-stagger="3"] { animation-delay: 0.3s; }
+[data-stagger="4"] { animation-delay: 0.4s; }
+[data-stagger="5"] { animation-delay: 0.5s; }
+[data-stagger="6"] { animation-delay: 0.6s; }
+
+/* ===== RESPONSIVE TEXT UTILITIES ===== */
+.text-clamp-h1 {
+  font-size: clamp(2.5rem, 5vw, 5.5rem);
+}
+
+.text-clamp-h2 {
+  font-size: clamp(2rem, 4vw, 4rem);
+}
+
+.text-clamp-h3 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+/* ===== ASPECT RATIO UTILITIES ===== */
+.aspect-square {
+  aspect-ratio: 1;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+/* ===== OVERLAY UTILITIES ===== */
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), transparent);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+}
+
+.overlay:hover::after {
+  opacity: 1;
+}
+
+/* ===== TRUNCATE UTILITIES ===== */
+.truncate-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== BACKFACE HIDE (GPU ACCELERATION) ===== */
+.gpu-accelerated {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* ===== POINTER UTILITIES ===== */
+.pointer-none {
+  pointer-events: none;
+}
+
+.pointer-auto {
+  pointer-events: auto;
+}
+
+/* ===== CURSOR UTILITIES ===== */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
