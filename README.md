@@ -2,8 +2,6 @@
 
 Personal portfolio website for Rinesa Krasniqi, Full Stack Developer from Prizren, Kosovo.
 
-**Live at:** `index.html` (open locally or deploy to any static host)
-
 ---
 
 ## Tech Stack
@@ -44,6 +42,22 @@ Personal portfolio website for Rinesa Krasniqi, Full Stack Developer from Prizre
 **Frontend** — Vue.js, React, JavaScript, HTML & CSS, Responsive Design  
 **Backend** — Laravel, PHP, MySQL, SQLite, RESTful APIs  
 **Tools** — Git & GitHub, Git Bash, Herd, Claude AI, Java, Data Privacy
+
+---
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/rineseee/portfolio-i-rineses-.git
+```
+
+Open `index.html` in your browser. No backend or server required.
+
+---
+
+## Deployment
+
+Can be deployed on GitHub Pages, Netlify, or Vercel.
 
 ---
 
