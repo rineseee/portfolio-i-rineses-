@@ -725,6 +725,8 @@
     order: -1;
     display: flex;
     justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
   }
 
   .about-image img {
@@ -1631,6 +1633,8 @@
   .about-image {
     display: flex;
     justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
   }
 
   .about-actions {
