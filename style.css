@@ -1441,6 +1441,15 @@
   margin-top: var(--spacing-2);
 }
 
+.contact-card-status-spaced {
+  margin-top: var(--spacing-4);
+}
+
+.btn-full-width {
+  width: 100%;
+  justify-content: center;
+}
+
 .status-dot {
   width: 8px;
   height: 8px;

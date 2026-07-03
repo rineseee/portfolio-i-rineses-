@@ -11,6 +11,8 @@
     <meta name="author" content="Rinesa Krasniqi">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0a0e27">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -38,12 +40,7 @@
     <link rel="stylesheet" href="animations.css">
 
     <!-- Prevent theme flash on load -->
-    <script>
-        (function() {
-            var t = localStorage.getItem('portfolio-theme') || 'dark';
-            document.documentElement.setAttribute('data-theme', t);
-        })();
-    </script>
+    <script src="theme-init.js"></script>
 
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
@@ -429,11 +426,11 @@
                         <label for="cf-message" data-i18n="form_message">Message</label>
                         <textarea id="cf-message" name="message" rows="5" placeholder="Hi Rinesa, I'd love to discuss..." required></textarea>
                     </div>
-                    <button type="submit" class="btn" style="width:100%;justify-content:center;">
+                    <button type="submit" class="btn btn-full-width">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
                         <span data-i18n="btn_send_message">Send Message</span>
                     </button>
-                    <div class="contact-card-status" style="margin-top:var(--spacing-4)">
+                    <div class="contact-card-status contact-card-status-spaced">
                         <span class="status-dot"></span>
                         <span data-i18n="status_available">Available now — usually replies within 24h</span>
                     </div>
