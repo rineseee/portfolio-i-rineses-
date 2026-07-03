@@ -18,11 +18,11 @@
   --color-border: #27272a;
   --color-border-light: #3f3f46;
 
-  /* Brand — balanced indigo-blue: clear color, not washed out, not neon */
-  --color-brand-primary: #4d7fe0;
-  --color-brand-secondary: #6f9cea;
-  --color-brand-tertiary: #a7c1f2;
-  --color-brand-dark: #3660bd;
+  /* Brand — baby blue */
+  --color-brand-primary: #89cff0;
+  --color-brand-secondary: #a6dcf5;
+  --color-brand-tertiary: #c7e8fa;
+  --color-brand-dark: #5db3e0;
 
   /* Accent */
   --color-accent-purple: #818cf8;
@@ -116,17 +116,17 @@
   --shadow-lg: 0 12px 32px 0 rgba(0, 0, 0, 0.25);
   --shadow-xl: 0 16px 48px 0 rgba(0, 0, 0, 0.3);
 
-  /* Glow Shadows - for interactive elements (soft, no neon) */
-  --shadow-glow-sm: 0 0 8px rgba(77, 127, 224, 0.2);
-  --shadow-glow-md: 0 0 14px rgba(77, 127, 224, 0.28);
-  --shadow-glow-lg: 0 0 20px rgba(77, 127, 224, 0.35);
+  /* Glow Shadows - for interactive elements (soft baby blue) */
+  --shadow-glow-sm: 0 0 8px rgba(137, 207, 240, 0.25);
+  --shadow-glow-md: 0 0 14px rgba(137, 207, 240, 0.32);
+  --shadow-glow-lg: 0 0 20px rgba(137, 207, 240, 0.4);
 
   /* ===== GRADIENTS ===== */
-  --gradient-brand: linear-gradient(135deg, #4d7fe0 0%, #7b6fe0 100%);
-  --gradient-brand-reverse: linear-gradient(135deg, #7b6fe0 0%, #4d7fe0 100%);
+  --gradient-brand: linear-gradient(135deg, #89cff0 0%, #6fb8e8 100%);
+  --gradient-brand-reverse: linear-gradient(135deg, #6fb8e8 0%, #89cff0 100%);
   --gradient-primary: linear-gradient(135deg, #09090b 0%, #111111 100%);
   --gradient-secondary: linear-gradient(145deg, #111111 0%, #1c1c1e 100%);
-  --gradient-accent: linear-gradient(135deg, #7b6fe0 0%, #4dc3e0 100%);
+  --gradient-accent: linear-gradient(135deg, #89cff0 0%, #a6dcf5 100%);
 
   /* ===== TRANSITIONS ===== */
   --transition-fast: 150ms ease-in-out;
@@ -161,11 +161,11 @@ html[data-theme="light"] {
   --color-border: #e4e4e7;
   --color-border-light: #d4d4d8;
 
-  /* Brand — balanced indigo-blue for contrast in light mode */
-  --color-brand-primary: #3660bd;
-  --color-brand-secondary: #4d7fe0;
-  --color-brand-tertiary: #6f9cea;
-  --color-brand-dark: #294c93;
+  /* Brand — baby blue, deepened slightly for contrast in light mode */
+  --color-brand-primary: #5db3e0;
+  --color-brand-secondary: #7fc4e8;
+  --color-brand-tertiary: #a6dcf5;
+  --color-brand-dark: #3d94c2;
 
   /* Semantic */
   --color-success: #059669;
@@ -178,16 +178,16 @@ html[data-theme="light"] {
   --color-overlay-dark: rgba(0, 0, 0, 0.1);
 
   /* Gradients */
-  --gradient-brand: linear-gradient(135deg, #3660bd 0%, #6355c7 100%);
+  --gradient-brand: linear-gradient(135deg, #5db3e0 0%, #4a9fd4 100%);
   --gradient-primary: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
   --gradient-secondary: linear-gradient(145deg, #fafafa 0%, #f4f4f5 100%);
 
   /* Shadows — more visible on light backgrounds */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
   --shadow-base: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-glow-sm: 0 0 8px rgba(54, 96, 189, 0.18);
-  --shadow-glow-md: 0 0 14px rgba(54, 96, 189, 0.24);
-  --shadow-glow-lg: 0 0 20px rgba(54, 96, 189, 0.3);
+  --shadow-glow-sm: 0 0 8px rgba(93, 179, 224, 0.2);
+  --shadow-glow-md: 0 0 14px rgba(93, 179, 224, 0.26);
+  --shadow-glow-lg: 0 0 20px rgba(93, 179, 224, 0.32);
 }
 
 /* ===== GLOBAL STYLES WITH TOKENS ===== */
