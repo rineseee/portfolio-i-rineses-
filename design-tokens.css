@@ -25,15 +25,15 @@
   --color-brand-dark: #5db3e0;
 
   /* Accent */
-  --color-accent-purple: #818cf8;
-  --color-accent-cyan: #22d3ee;
-  --color-accent-emerald: #34d399;
+  --color-accent-purple: #9b93ea;
+  --color-accent-cyan: #6bc6d4;
+  --color-accent-emerald: #5cbf94;
 
   /* Semantic */
-  --color-success: #34d399;
-  --color-warning: #fbbf24;
-  --color-error: #f87171;
-  --color-info: #38bdf8;
+  --color-success: #5cbf94;
+  --color-warning: #e0ac4d;
+  --color-error: #e08787;
+  --color-info: #89cff0;
 
   /* Overlays */
   --color-overlay-light: rgba(255, 255, 255, 0.04);

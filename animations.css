@@ -128,10 +128,10 @@ html {
 /* Glow */
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+    box-shadow: 0 0 12px rgba(137, 207, 240, 0.2);
   }
   50% {
-    box-shadow: 0 0 40px rgba(56, 189, 248, 0.6);
+    box-shadow: 0 0 22px rgba(137, 207, 240, 0.35);
   }
 }
 

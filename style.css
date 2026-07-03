@@ -1454,8 +1454,8 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #34d399;
-  box-shadow: 0 0 8px rgba(52, 211, 153, 0.6);
+  background: #5cbf94;
+  box-shadow: 0 0 6px rgba(92, 191, 148, 0.35);
   animation: pulse 2s ease-in-out infinite;
   flex-shrink: 0;
 }
